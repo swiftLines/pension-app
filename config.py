@@ -8,3 +8,4 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # where logs will be written (app creates this on startup if needed)
     LOG_DIR = os.path.join(os.path.dirname(__file__), 'logs')
+    
